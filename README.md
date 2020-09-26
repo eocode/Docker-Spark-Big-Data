@@ -1,6 +1,6 @@
 # Spark Projects with Docker
 
-Project build using: https://github.com/big-data-europe/docker-spark/tree/master/template/python
+Project build using: https://github.com/big-data-europe/docker-spark
 
 Supported versions:
 
@@ -31,3 +31,7 @@ Run pyspark CLI:
 cd home/python/example
 ./../../../spark/bin/spark-submit example.py data.csv
 ```
+
+Spark monitor:
+http://localhost:4040
+http://localhost:4041
