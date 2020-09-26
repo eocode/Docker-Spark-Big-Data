@@ -32,6 +32,8 @@ cd home/python/example
 ./../../../spark/bin/spark-submit example.py data.csv
 ```
 
-Spark monitor:
+**Spark monitor:**
+
 http://localhost:4040
+
 http://localhost:4041
