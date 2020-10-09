@@ -5,8 +5,9 @@ services:
     container_name: spark-master
     ports:
       - "8080:8080"
+      - "8888:8888"
       - "7077:7077"
-      - "4040:4040"
+      - "4042:4040"
     environment:
       - INIT_DAEMON_STEP=setup_spark
     volumes:

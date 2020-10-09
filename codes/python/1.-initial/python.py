@@ -6,6 +6,6 @@ spark.stop()
 sc = SparkContext(master="local", appName="miPrimerContexto")
 spark2 = SparkSession(sc)
 
-time.sleep(10)
+time.sleep(30)
 
 spark2

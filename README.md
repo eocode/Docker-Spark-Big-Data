@@ -22,13 +22,20 @@ http://localhost:8081
 
 http://localhost:8082
 
+## Execute container with worker 1
+
+```sh
+docker exec -it spark-worker-1 bash
+```
+
 ## Python examples
 
 Run pyspark CLI:
 
 ```sh
-# Run CLI
+# Run pyspark CLI
 ./spark/bin/pyspark
+
 # Execute a file
 cd home/python/example
 ./../../../spark/bin/spark-submit example.py data.csv
@@ -39,3 +46,7 @@ cd home/python/example
 http://localhost:4040
 
 http://localhost:4041
+
+apk add gcc
+pip3 install notebook
+
